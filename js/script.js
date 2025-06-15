@@ -55,5 +55,25 @@ $(document).ready(function(){
 	});
 });
 
-
-
+document.addEventListener('DOMContentLoaded', function() {
+  const hamburger = document.querySelector('.hamburger');
+  const menu = document.querySelector('.navbar-bottom .menu-right');
+  
+  hamburger.addEventListener('click', function() {
+    this.classList.toggle('active');
+    menu.classList.toggle('active');
+    
+    // Impede a rolagem do corpo quando o menu está aberto
+    document.body.style.overflow = menu.classList.contains('active') ? 'hidden' : '';
+  });
+  
+  // Fechar menu ao clicar em um link
+  const menuLinks = document.querySelectorAll('.menu-right a');
+  menuLinks.forEach(link => {
+    link.addEventListener('click', function() {
+      hamburger.classList.remove('active');
+      menu.classList.remove('active');
+      document.body.style.overflow = '';
+    });
+  });
+});
