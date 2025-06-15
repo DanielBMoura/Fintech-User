@@ -1,19 +1,17 @@
 <div align="center">
-<h1 align="center">  Página Administrativa 🖥️ </h1>
+<h1 align="center">  Fintech Etec 🏦 </h1>
 
 ## Sobre o projeto 🔍
 
 <p align="center">
-Este projeto é uma interface responsiva de uma página administrativa, desenvolvida com HTML, CSS e Chart.js. O principal objetivo é fornecer uma visualização clara e intuitiva de dados administrativos, como gráficos de ganhos, controle de funcionários, estudantes, professores e informações gerenciais, facilitando o acompanhamento e a tomada de decisões. <br>
+O projeto é uma interface de uma fintech, contendo áreas como, home, serviços, portifólio, time, blog, e contato. Desenvolvida usando HTML, CSS, e Javascript, seu principal objetivo é oferecer uma experiência segura, intuitiva e eficiente para o usuário lidar com serviços financeiros digitais.
 O projeto pode ser acessado por este link: <br>
-👉 https://fintech-admin-six.vercel.app/
+👉 https://fintech-five-liart.vercel.app/
 </p>
 
 ## Funcionalidades ✨
 
-📱 **Design responsivo**: Permite o acesso por todo tipo de dispositivo, oferecendo uma boa experiência em todos os tipos de telas.  
-
-📊 **Gráficos interativos**: Com o uso de Chart.js, visualize dados importantes como ganhos, número de professores, alunos ou funcionários de forma clara e dinâmica.
+🧭 **Navegação intuitiva**: Interface simples e organizada, que facilita o acesso às principais funcionalidades, mesmo para usuários com pouca familiaridade com tecnologia.
 
 🔗 **Deploy online:** O seu deploy foi feito na vercel e pode ser acessado por qualquer um.
 
@@ -23,7 +21,7 @@ O projeto pode ser acessado por este link: <br>
 
 **CSS**: Utilizado para estilizar os elementos da página, garantindo um visual atrativo e responsivo.  
 
-**Chart.js**: Biblioteca JavaScript usada para criar gráficos interativos e dinâmicos, permitindo a visualização de dados de forma clara e intuitiva.  
+**Javascript**: Aplicado para adicionar interatividade à página, como as animações e funcionalidades dinâmicas.  
 
 **Vercel**: Plataforma utilizada para fazer o deploy e deixar a aplicação online.
 
@@ -32,7 +30,7 @@ O projeto pode ser acessado por este link: <br>
 Para clonar o repositório, execute o seguinte comando:
 
 ```bash
-git clone https://github.com/DanielBMoura/Fintech-Admin.git
+git clone https://github.com/DanielBMoura/Fintech-User.git
 ```
 
 ## Considerações finais 📝
